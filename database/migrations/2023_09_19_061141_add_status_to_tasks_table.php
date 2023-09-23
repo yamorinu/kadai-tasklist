@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::table('tasks', function (Blueprint $table) {
-            $table->ipAddress('status');
+            $table->String('status');
         });
     }
 

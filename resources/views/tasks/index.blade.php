@@ -12,7 +12,6 @@
                 <tr>
                     <th>id</th>
                     <th>status</th>
-                    <th>content</th>
                     <th>メッセージ</th>
                 </tr>
             </thead>

@@ -12,9 +12,9 @@
             
                 <div class="form-control my-4">
                     <label for="status" class="label">
-                        <span class="label-text">content:</span>
+                        <span class="label-text">status:</span>
                     </label>
-                    <input type="text" name="content" class="input input-bordered w-full">
+                    <input type="text" name="status" class="input input-bordered w-full">
                 </div>
 
                 <div class="form-control my-4">
