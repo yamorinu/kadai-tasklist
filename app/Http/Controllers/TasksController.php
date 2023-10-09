@@ -68,6 +68,8 @@ class TasksController extends Controller
             'status' => $request->status,
         ]);
         
+        return back();
+        
         // $task = new Task;
         // $task->status = $request->status;
         // $task->content = $request->content;
@@ -161,7 +163,7 @@ class TasksController extends Controller
                 ->with('success','Delete Successful');
         }
 
-        // トップページへリダイレクトさせる
-        return redirect('/');
+         return back()
+            ->with('Delete Failed');
     }
 }
